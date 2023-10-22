@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="login.css">
+   
+    <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="buttom-form">
+            <div class="btn-color"></div>
+            <button id="btn-singin">Sing in</button>
+            <button id="btn-singup">Sing up</button>
+        </div>
+
+        <form id="sing-in">
+            <input type="text" placeholder="e-mail" required />
+            <i class="fas fa-envelope ie-mail"></i>
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword"></i>
+            <div class="divCheck">
+                <input type="checkbox" />
+                <span> Remember password</span>
+            </div>
+            <button type="submit" >Sing in</button>
+        </form> 
+
+        <form id="sing-up">
+            <input type="text" placeholder="e-mail" required />
+            <i class="fas fa-envelope ie-mail"></i>
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword"></i>
+            <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock iPassword2"></i>
+            <div class="div-check">
+                <input type="checkbox" required/>
+                <span> Remember access</span>
+            </div>
+            <button type="submit" >Create</button>
+        </form>  
+    </div>
+    <script src="login.js"> </script>
+</body>
+</html>
